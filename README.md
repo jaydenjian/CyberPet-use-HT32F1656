@@ -16,7 +16,7 @@
 * [裝置設計](#裝置設計-Device-Design)
   * 使用元件
   * 介面配置
-* [16*16點矩陣設計](#16＊16點矩陣設計-LED-Matrix-Design)
+* [LED點矩陣設計](#LED點矩陣設計-LED-Matrix-Design)
   * Decoder Data Sheet 研究
   * 動畫編碼
 * [程式設計](#程式設計-Programming)
@@ -70,7 +70,7 @@
 <br>
 
 
-## 16＊16點矩陣設計 LED Matrix Design
+## LED點矩陣設計 LED Matrix Design
 * Decoder Data Sheet 研究：<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/LED%20Matrix%20Pin.png" width=50% align="right"/>
 
   16x16點矩陣是利用2個74HC138D, 2個74HC595D 所控制，2種decoder的功能都是可以利用3隻PIN腳控制8bit的輸出，由2個138 decoder控制「行」，2個    595 decoder控制「列」，並藉由視覺暫留的方式，將圖形呈現出來。
