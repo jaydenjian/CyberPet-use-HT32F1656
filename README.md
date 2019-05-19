@@ -38,6 +38,12 @@
 
 ## 裝置設計 Device Design
 * 使用元件 
+  * 單晶片 HT32F1656 以及 擴充板 <br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E5%9C%96%E5%B1%A4%201.png" width=20% > <br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E5%9C%96%E5%B1%A4%202.png" width=40% >
+  * 七段顯示器：顯示剩餘秒數與死亡訊息 <br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/7seg.png" width=15% >
+  * LED燈：顯示小綠人能量<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Led.png" width=15% >
+  * 指撥開關：控制小綠人餵食與打針<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E6%8C%87%E6%92%A5.png" width=15% >
+  * 16*16點矩陣：顯示小綠人動畫<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E5%9C%96%E5%B1%A4%203.png" width=15% >
+  * RGB LED燈：顯示紅綠燈狀態<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/RGB%20LED.jpg" width=15% >
 
 
 
