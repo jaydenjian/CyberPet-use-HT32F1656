@@ -113,7 +113,7 @@
  
  
 ### 動畫編碼
-LED Matrix為共陽的16進制編碼，人物走動動畫共有7張圖，人物靜止動畫共有4張圖，人物餵食共2張圖，人物醫療共5張圖，人物生病共7張圖，以及人物死亡1張圖，總共有26張圖，26個矩陣，832個8bit編碼，6656個bit要數。編碼著實耗費時間！ <br> 
+LED Matrix為共陽的16進制編碼，人物走動動畫共有7張圖，人物靜止動畫共有4張圖，人物餵食共2張圖，人物醫療共5張圖，人物生病共7張圖，以及人物死亡1張圖，總共有26張圖，26個矩陣，832個8bit編碼，6656個bit要數。編碼著實耗費時間體力！ <br> 
 請查閱：[圖形編碼文件檔](https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/Animation%20Code.docx)
 
 <br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAwalkGIF.gif" width=15% />
@@ -122,8 +122,32 @@ LED Matrix為共陽的16進制編碼，人物走動動畫共有7張圖，人物�
 <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAinjectionGIF.gif" width=15% />
 <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAeatGIF.gif" width=15% />
 
-	
-	
+ ## 程式設計
+ 
+### 有限狀態機設計(FSM Design) <br>
+有限狀態機（縮寫：FSM），用於表示有限個狀態以及在這些狀態之間的轉移和動作等行為的數學模型。
+ <br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E5%9C%96%E7%89%87%201.png" width=30% />
 
+<br>
 
+### 程式流程圖 <br> 
+* Main主程式流程圖 <br> 
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Main_Process-07.png" width=60% />
+<br>
+
+* 生病程式流程圖 <br>
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Sick_-10.png" width=25% />
+<br> 
+
+* 紅燈程式流程圖 <br>
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Red_-09.png" width=35% />
+<br> 
+
+* 綠燈程式流程圖 <br>
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Green_-11.png" width=35% />
+<br> 
+
+* 黃燈程式流程圖 <br>
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Yellow_-08.png" width=10% />
+<br> 
 
