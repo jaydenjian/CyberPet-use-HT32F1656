@@ -53,22 +53,41 @@
   
   <br>
   
-  * 16*16點矩陣：顯示小綠人動畫<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E5%9C%96%E5%B1%A4%203.png" width=15% >
+  * 16*16點矩陣：顯示小綠人動畫<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E5%9C%96%E5%B1%A4%203.png" width=30% >
   
   <br>
   
   * RGB LED燈：顯示紅綠燈狀態<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/RGB%20LED.jpg" width=15% >
 
+
+
 <br>
 
 * 介面配置
-<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E4%BB%8B%E9%9D%A2%E9%85%8D%E7%BD%AE-03.png
-" width=60% >
+<p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/device_setting.png" width=80% >
 
 
+<br>
 
 
+## 16＊16點矩陣設計 LED Matrix Design
+* Decoder Data Sheet 研究：<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/LED%20Matrix%20Pin.png" width=50% align="right"/>
 
+  16x16點矩陣是利用2個74HC138D, 2個74HC595D 所控制，2種decoder的功能都是可以利用3隻PIN腳控制8bit的輸出，由2個138 decoder控制「行」，2個    595 decoder控制「列」，並藉由視覺暫留的方式，將圖形呈現出來。
+
+<br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/LED%20Matrix%20Data%20Process-04.png" width=70% />
+<br> <p align="center"> 圖像顯示流程圖
+
+> 74HC595D： <br>
+   使用16x16點矩陣上的DI, CLK, LAT腳位來輸出入。
+ <br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/595_function%20Flow-05.png" width=70% />
+<br> <p align="center"> 74HC595D Decode訊號傳輸流程
+ 
+> 74HC138D： <br>
+   使用16x16點矩陣上的G,A,B,C,D腳位，D腳位是用來選擇2個138IC的其中一個，G腳位則是致能端。A,B,C腳位可以組合出8種8bit的輸出
+ <br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/138_outputTable.png" width=70% />
+<br> <p align="center"> 74HC138D Decode輸出表
+ 
 
 
 
