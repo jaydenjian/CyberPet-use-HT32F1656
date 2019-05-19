@@ -12,7 +12,7 @@
 <br>
 
 ## 目錄 Table of content
-* 遊戲內容
+* [遊戲內容](#遊戲內容-Game-Design)
 * 裝置設計
   * 使用元件
   * 介面配置
