@@ -59,6 +59,12 @@
   
   * RGB LED燈：顯示紅綠燈狀態<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/RGB%20LED.jpg" width=15% >
 
+<br>
+
+* 介面配置
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E4%BB%8B%E9%9D%A2%E9%85%8D%E7%BD%AE-03.png
+" width=60% >
+
 
 
 
