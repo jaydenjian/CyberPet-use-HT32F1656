@@ -165,5 +165,7 @@ LED Matrix為共陽的16進制編碼，人物走動動畫共有7張圖，人物�
 
 
 ## Prototype
-<br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Prototype.png" width=70% />
+<br> 點擊圖片觀看影片！
+<br> <a href="https://youtu.be/5tuspHQ5WGk" target="_blank"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/Prototype.png" 
+width=70% /></a>
 
