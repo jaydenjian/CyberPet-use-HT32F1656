@@ -116,8 +116,12 @@
 LED Matrix為共陽的16進制編碼，人物走動動畫共有7張圖，人物靜止動畫共有4張圖，人物餵食共2張圖，人物醫療共5張圖，人物生病共7張圖，以及人物死亡1張圖，總共有26張圖，26個矩陣，832個8bit編碼，6656個bit要數。編碼著實耗費時間！ <br> 
 請查閱：[圖形編碼文件檔](https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/Animation%20Code.docx)
 
-<br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/%E4%BA%BA%E7%89%A9%E7%B7%A8%E7%A2%BC%E5%9C%96.png" width=30% />
-<br> <p align="center"> 人物編碼圖
+<br> <img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAwalkGIF.gif" width=15% />
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAstopGIF.gif" width=15% />
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAsickGIF.gif" width=15% />
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAinjectionGIF.gif" width=15% />
+<img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/GIF%20File/%E5%B0%8F%E7%B6%A0%E4%BA%BAeatGIF.gif" width=15% />
+
 	
 	
 
