@@ -13,8 +13,8 @@
 
 ## 目錄 Table of content
 * [遊戲內容](#遊戲內容-Game-Design)
-* 裝置設計
-  * 使用元件
+* [裝置設計](#裝置設計-Device-Design)
+  * [使用元件](#使用元件)
   * 介面配置
 * 16*16點矩陣設計
   * Decoder Data Sheet 研究
