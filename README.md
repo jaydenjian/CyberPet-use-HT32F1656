@@ -78,12 +78,12 @@
 <br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/LED%20Matrix%20Data%20Process-04.png" width=70% />
 <br> <p align="center"> 圖像顯示流程圖
 
-> 74HC595D： <br>
+> **74HC595D**： <br>
    使用16x16點矩陣上的DI, CLK, LAT腳位來輸出入。
  <br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/595_function%20Flow-05.png" width=70% />
 <br> <p align="center"> 74HC595D Decode訊號傳輸流程
  
-> 74HC138D： <br>
+> **74HC138D**： <br>
    使用16x16點矩陣上的G,A,B,C,D腳位，D腳位是用來選擇2個138IC的其中一個，G腳位則是致能端。A,B,C腳位可以組合出8種8bit的輸出
  <br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/138_outputTable.png" width=70% />
 <br> <p align="center"> 74HC138D Decode輸出表
