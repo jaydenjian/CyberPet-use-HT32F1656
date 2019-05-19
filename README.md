@@ -14,16 +14,16 @@
 ## 目錄 Table of content
 * [遊戲內容](#遊戲內容-Game-Design)
 * [裝置設計](#裝置設計-Device-Design)
-  * [使用元件](#使用元件)
+  * 使用元件
   * 介面配置
-* 16*16點矩陣設計
+* [16*16點矩陣設計](#16＊16點矩陣設計-LED-Matrix-Design)
   * Decoder Data Sheet 研究
   * 動畫編碼
-* 程式設計
+* [程式設計](#程式設計-Programming)
   * 有限狀態機設計(FSM Design)
   * 程式流程圖
   * Main程式碼
-* Prototype
+* [Prototype](#Prototype)
 
 
 <br>
