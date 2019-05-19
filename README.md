@@ -79,9 +79,20 @@
 <br> <p align="center"> 圖像顯示流程圖
 
 > **74HC595D**： <br>
-   使用16x16點矩陣上的DI, CLK, LAT腳位來輸出入。
- <br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/595_function%20Flow-05.png" width=70% />
+使用16x16點矩陣上的`DI`, `CLK`, `LAT`腳位來輸出入 —— DI腳用於傳輸每bit的LED是否亮(HIGH=亮,LOW=不亮)；CLK腳用於shift register clock，上升時發送data出去；LAT腳用於鎖存剛發送出來的data，給後面的138解碼器做掃描讀取資料用。<br>
+每張圖共由***32組8bit編碼*** 所組成，每次發送一組8bit的data出去(eg.0xF4)，接著由138解碼器掃描輸出LED。因為速度很快，足以在人眼上產生視覺暫留效果，達到圖形顯現。<br>
+595解碼器主要負責程式碼`Send`的部分。
+   
+<br> <p align="center"><img src="https://github.com/jaydenjian/CyberPet-use-HT32F1656/blob/master/media/595_function%20Flow-05.png" width=70% />
 <br> <p align="center"> 74HC595D Decode訊號傳輸流程
+ 
+   ```C++
+   void Send( unsigned char dat) //* LEDARRAY_G(138 IC) need be HIGH level(close)
+{
+	...
+}
+   ```
+
  
 > **74HC138D**： <br>
    使用16x16點矩陣上的G,A,B,C,D腳位，D腳位是用來選擇2個138IC的其中一個，G腳位則是致能端。A,B,C腳位可以組合出8種8bit的輸出
